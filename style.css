@@ -242,7 +242,8 @@ ul {
 /*sobre*/
 #sobre {
   position: absolute;
-  width: 952px;
+  width: 100%;
+  max-width: 1400px;
   height: 340px;
   left: 448px;
   top: 40px;
@@ -260,7 +261,8 @@ ul {
 /*My projects*/
 #myproject {
   position: absolute;
-  width: 952px;
+  width: 100%;
+  max-width: 1400px;
   height: 86px;
   left: 448px;
   top: 395px;
@@ -273,14 +275,15 @@ ul {
   position: absolute;
   width: 71px;
   height: 18px;
-  left: 851px;
+  left: 1300px;
   top: 34px;
 }
 
 /*projectbox*/
 #box1 {
   position: absolute;
-  width: 461px;
+  width: 100%;
+  max-width: 685px;
   height: 186px;
   left: 448px;
   top: 510px;
@@ -300,9 +303,10 @@ ul {
 
 #box2 {
   position: absolute;
-  width: 461px;
+  width: 100%;
+  max-width: 685px;
   height: 186px;
-  left: 939px;
+  left: 1165px;
   top: 510px;
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
